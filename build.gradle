@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.11.4'
+//    implementation 'com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.13.1'
+    implementation 'javax.ws.rs:jsr311-api:1.1.1'
+}
+
+//test {
+//    useJUnitPlatform()
+//}
